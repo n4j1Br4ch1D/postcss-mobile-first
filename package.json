@@ -1,0 +1,50 @@
+{
+  "name": "postcss-mobile-first",
+  "version": "1.0.0",
+  "description": "This PostCSS plugin converts your desktop-first CSS code to mobile-first CSS code. This plugin helps you automatically converting your old css desktop first code into modern mobile-first code. This Plugin can save time and effort.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postcss": "postcss src/**/*.css  --dir build",
+    "postcss:watch": "postcss src/**/*.css --dir build --watch",
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4j1Br4ch1D/postcss-mobile-first.git"
+  },
+  "keywords": [
+    "CSS mobile first",
+    "PostCSS",
+    "CSS mobile 1st",
+    "PostCSS plugin",
+    "production CSS files",
+    "CSS mobile first",
+    "Code customization",
+    "CSS customization",
+    "CSS desktop first",
+    "make css fast",
+    "Mobile-first approach",
+    "Media queries",
+    "Responsive web design",
+    "css breakpoints",
+    "Desktop-first approach",
+    "esponsive design",
+    "Mobile-first development",
+    "CSS optimization",
+    "Code formatting",
+    "CSS preprocessing",
+    "Build tools."
+  ],
+  "author": "Najib Rachid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n4j1Br4ch1D/postcss-mobile-first/issues"
+  },
+  "homepage": "https://github.com/n4j1Br4ch1D/postcss-mobile-first#readme",
+  "devDependencies": {
+    "postcss": "^8.4.21"
+  }
+}
